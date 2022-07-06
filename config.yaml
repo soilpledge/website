@@ -1,0 +1,71 @@
+baseurl: https://username.github.io
+DefaultContentLanguage: en
+title: Our pledge as soil scientists
+theme: beautifulhugo
+metaDataFormat: yaml
+pygmentsStyle: trac
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+pygmentsCodefencesGuessSyntax: yes
+Params:
+  comments: yes
+  commit: no
+  dateFormat: 2 January, 2006
+  delayDisqus: yes
+  favicon: img/favicon.ico
+  logo: img/logo.jpg
+  mainSections:
+    - post
+    - posts
+  readingTime: yes
+  rss: yes
+  showRelatedPosts: yes
+  socialShare: yes
+  subtitle: How can we build a more equitable, diverse and inclusive environment?
+  useHLJS: yes
+  wordCount: yes
+Author:
+  email: stars@lancaster.ac.uk
+  github: soilpledge
+  name: STARS CDT
+  twitter: STARScdt
+  website: http://www.starsoil.org.uk/
+  youtube: channel/UCQF4JwyJuUGDP_dsi34Epag
+menu:
+  main:
+    - name: Blog
+      url: ''
+      weight: 2
+    - name: About Us
+      url: page/about/
+      weight: 3
+    - identifier: useful
+      name: Useful resources
+      weight: 1
+    - name: Diverse Community
+      parent: useful
+      url: post/diverse-community
+      weight: 1
+    - name: Recognising privilege
+      parent: useful
+      url: post/recognising-privilege
+      weight: 2
+    - name: Historical context
+      parent: useful
+      url: post/historical-context
+      weight: 3
+    - name: Remove barriers
+      parent: useful
+      url: post/remove-barriers
+      weight: 5
+    - name: Local knowledge
+      parent: useful
+      url: post/local-knowledge
+      weight: 5
+    - name: Equity of access
+      parent: useful
+      url: post/equity-access
+      weight: 6
+    - name: Tags
+      url: tags
+      weight: 3
