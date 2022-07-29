@@ -12,8 +12,8 @@ Params:
   commit: no
   dateFormat: 2 January, 2006
   delayDisqus: yes
-  favicon: img/favicon.ico
-  logo: img/logo.jpg
+  favicon: img/avatar-favicon.png
+  logo: img/avatar-icon.png
   mainSections:
     - post
     - posts
