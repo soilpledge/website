@@ -1,4 +1,4 @@
-baseurl: https://username.github.io
+baseurl: https://soil-edi-pledge.netlify.app/
 DefaultContentLanguage: en
 title: Our pledge as soil scientists
 theme: beautifulhugo
